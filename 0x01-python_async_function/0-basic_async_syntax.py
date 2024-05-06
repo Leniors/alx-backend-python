@@ -2,10 +2,10 @@
 """
 0-basic_async_syntax.py
 """
+
 import asyncio
 import random
 from typing import Optional
-
 
 async def wait_random(max_delay: Optional[int] = 10) -> float:
     """
